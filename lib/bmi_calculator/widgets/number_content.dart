@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exercise_catalog/constants.dart';
+import 'package:flutter_exercise_catalog/bmi_calculator/constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class NumberContent extends StatelessWidget {

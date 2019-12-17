@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_exercise_catalog/constants.dart';
+import 'package:flutter_exercise_catalog/bmi_calculator/constants.dart';
 
 class SlideCardChild extends StatelessWidget {
   SlideCardChild({this.height, this.onChanged});
@@ -11,8 +11,8 @@ class SlideCardChild extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         Text('HEIGHT', style: kLabelTextStyle),
         Row(
