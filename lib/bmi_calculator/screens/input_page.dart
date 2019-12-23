@@ -32,7 +32,6 @@ class _InputPageState extends State<InputPage> {
   void setHeight(double heightVal) {
     setState(() {
       height = heightVal.round();
-      print('new height: $height');
     });
   }
 
